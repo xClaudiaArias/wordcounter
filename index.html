@@ -15,60 +15,61 @@
     </nav>
     <!-- main div  -->
     <main>
-        <h1>Word Counter</h1>
-        <div id="container"></div>
-        <div id="main-area">
-            <div id="stats">
-                <div id="words">
-                    <h3 class="word-desc">Words</h3>
-                    <p id="words-num" class="number">0</p>
+        <div id="container">
+            <h1>Word Counter</h1>
+            <div id="main-area">
+                <div id="stats">
+                    <div id="words">
+                        <h3 class="word-desc">Words</h3>
+                        <p id="words-num" class="number">0</p>
+                    </div>
+                    <div id="letters">
+                        <h3 class="word-desc">Letters</h3>
+                        <p id="letters-num" class="number">0</p>
+                    </div>
+                    <div id="sentences">
+                        <h3 class="word-desc">Sentences</h3>
+                        <p id="sentences-num" class="number">0</p>
+                    </div>
+                    <div id="paragraphs">
+                        <h3 class="word-desc">Paragraphs</h3>
+                        <p id="paragraphs-num" class="number">0</p>
+                    </div>
                 </div>
-                <div id="letters">
-                    <h3 class="word-desc">Letters</h3>
-                    <p id="letters-num" class="number">0</p>
+        
+                <div id="text-container">
+                    <textarea name="" id="text-area" cols="80" rows="20"></textarea>
                 </div>
-                <div id="sentences">
-                    <h3 class="word-desc">Sentences</h3>
-                    <p id="sentences-num" class="number">0</p>
-                </div>
-                <div id="paragraphs">
-                    <h3 class="word-desc">Paragraphs</h3>
-                    <p id="paragraphs-num" class="number">0</p>
-                </div>
-            </div>
     
-            <div id="text-container">
-                <textarea name="" id="text-area" cols="80" rows="20"></textarea>
-            </div>
-
-            <div id="characters">
-                <h3>Characters</h3>
-                <div id="character-container">
-                    <div id="twitter">
-                        <p>Twitter</p>
-                        <div id="twitter-num">
-                            <p>280</p>
-                            <p>/280</p>
+                <div id="characters">
+                    <h3>Characters</h3>
+                    <div id="character-container">
+                        <div id="twitter">
+                            <p>Twitter</p>
+                            <div id="twitter-num">
+                                <p>280</p>
+                                <p>/280</p>
+                            </div>
                         </div>
-                    </div>
-                    <div id="facebook">
-                        <p>Facebook</p>
-                        <div id="facebook-num">
-                            <p>250</p>
-                            <p>/250</p>
+                        <div id="facebook">
+                            <p>Facebook</p>
+                            <div id="facebook-num">
+                                <p>250</p>
+                                <p>/250</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- --bottom of main -buttons-  -->
-        <div id="buttons">
-            <div id="btns">
-                <button id="copy">Copy</button>
-                <button id="clear">Clear</button>
-            </div>
-            <div id="switch-mode">
-                <div id="switch-mode-toggler"></div>
+            <!-- --bottom of main -buttons-  -->
+            <div id="buttons">
+                <div id="btns">
+                    <button id="copy">Copy</button>
+                    <button id="clear">Clear</button>
+                </div>
+                <div id="switch-mode">
+                    <div id="switch-mode-toggler"></div>
+                </div>
             </div>
         </div>
     </main>

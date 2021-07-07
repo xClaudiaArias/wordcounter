@@ -7,21 +7,37 @@ body {
 }
 nav {
   width: 100vw;
-  height: 50px;
-  background-color: red;
+  height: 80px;
+  background-color: #ffffff;
 }
 main {
-  margin: 20px auto;
-  width: 1000px;
-  height: 582px;
-  background-color: orange;
+  width: 100vw;
+  height: 600px;
+  background-color: #ffffff;
 }
-main h1 {
-  color: blue;
-  text-align: center;
-  padding: 10px;
+main #container {
+  width: 1456px;
+  height: 758px;
+  padding: 21px 50px 43px 63px;
+  border-radius: 21px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
 }
-main #main-area {
+main #container h1 {
+  width: 316px;
+  height: 59px;
+  margin: 0 408px 18px 391px;
+  font-family: HelveticaNeue;
+  font-size: 49px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f7931e;
+}
+main #container #main-area {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -31,30 +47,30 @@ main #main-area {
   width: 900px;
   height: 460px;
 }
-main #main-area #stats {
+main #container #main-area #stats {
   background-color: purple;
   width: 100px;
 }
-main #main-area #characters {
+main #container #main-area #characters {
   background-color: brown;
   width: 100px;
 }
-main #buttons {
+main #container #buttons {
   margin: 0 auto;
   width: 300px;
-  height: 60px;
+  height: 40px;
   background-color: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main #buttons #switch-mode {
+main #container #buttons #switch-mode {
   width: 60px;
   height: 30px;
   background-color: blue;
   border-radius: 50px;
 }
-main #buttons #switch-mode #switch-mode-toggler {
+main #container #buttons #switch-mode #switch-mode-toggler {
   width: 30px;
   height: inherit;
   background-color: green;
