@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Word Up</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet/less" type="text/css" href="./css/styles.less" />
-    <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
 </head>
 <body>
     <nav>
@@ -38,7 +36,7 @@
                 </div>
         
                 <div id="text-container">
-                    <textarea name="" id="text-area" cols="80" rows="20"></textarea>
+                    <textarea name="text-area" id="text-area" cols="80" rows="20" placeholder="Type something..."></textarea>
                 </div>
     
                 <div id="characters">
@@ -46,15 +44,15 @@
                     <div id="character-container">
                         <div id="twitter">
                             <p>Twitter</p>
-                            <div id="twitter-num">
-                                <p>280</p>
+                            <div>
+                                <p id="twitter-num">280</p>
                                 <p>/280</p>
                             </div>
                         </div>
                         <div id="facebook">
                             <p>Facebook</p>
-                            <div id="facebook-num">
-                                <p>250</p>
+                            <div>
+                                <p id="facebook-num">250</p>
                                 <p>/250</p>
                             </div>
                         </div>
@@ -78,6 +76,7 @@
 
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>
