@@ -48,6 +48,10 @@ $("#text-area").on('keydown', function(e) {
             $('#paragraphs-num').text(""  + paraLength)
         }
 
+        if (e.target.value.length === 0){
+            $('#paragraphs-num').text("0")
+        }
+
         //  twitter
         let removeTwitterNum = twitterNum - parseInt($('#letters-num').text())
 
@@ -58,7 +62,7 @@ $("#text-area").on('keydown', function(e) {
             $('#twitter-num').text("280")
         } else if ((removeTwitterNum > 0)) {
             $('#twitter-num').text("" + $('#letters-num').text())
-            $("#twitter-num").css("color", "black")
+            $("#twitter-num").css("color", "#707070")
         }
         
         if (e.target.value.length == 0){
@@ -77,7 +81,7 @@ $("#text-area").on('keydown', function(e) {
             $('#facebook-num').text("250")
         } else if ((removefacebookNum > 0)) {
             $('#facebook-num').text("" + $('#letters-num').text())
-            $("#facebook-num").css("color", "black")
+            $("#facebook-num").css("color", "#707070")
         }
         
         if (e.target.value.length == 0){

@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
 nav {
     width: 100vw;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -16,5 +17,161 @@ nav {
     width: 48px;
     height: 48px;
     padding: 5px;
-    margin-left: 50px; /* MARGIN */
+    margin-left: 120px; /* MARGIN */
+}
+
+
+/* MAIN */
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    height: 620px; /* change this */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin: -70px 0;
+    height: 540px;
+    width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 0 6px #e8e8e8;
+}
+
+#container h1 {
+    text-align: center;
+    padding: 30px 0 10px;
+    color: #F7931E;
+}
+
+#container #main-area {
+    /* background-color: green; */
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+#stats div {
+    padding: 15px;
+}
+
+h3 {
+    color: #838383;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.number {
+    color: #707070;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+#text-area {
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+}
+
+#text-area::placeholder {
+    font-size: 15px;
+    padding: 5px;
+    color: #bdbdbd;
+    font-weight: 100;
+}
+
+#twitter, 
+#facebook {
+    padding: 10px 0;
+}
+
+#twitter h4,
+#facebook h4 {
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+
+#twitter h4 {
+    color: #1DA1F2;
+}
+
+#facebook h4 {
+    color: #4267B2;
+}
+
+#twitter div,
+#facebook div {
+    display: flex;
+}
+
+#twitter-num,
+#facebook-num {
+    padding-left: 5px;
+    color: #707070;
+    font-size: 18px;
+}
+
+#twitter-light-num,
+#facebook-light-num {
+    font-size: 11px;
+    padding: 4px 0 0 4px;
+    color: #707070;
+    font-weight: 100;
+}
+
+#btns {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    border: none;
+    background-color: #FBC83B;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+}
+
+#copy:hover {
+    background-color: #ffde84;
+    color: #F7931E;
+}
+
+#clear {
+    border: 1px solid #707070;
+    background-color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    color: #707070;
+    margin-left: 20px;
+}
+
+#clear:hover {
+    background-color: #707070;
+    color: #ffffff;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    background-color: #ffefc1;
+    height: 50px;
+    text-align: center;
+    color: #fbc83b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
